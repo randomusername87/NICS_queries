@@ -23,13 +23,16 @@ STEP 6:
 Examining the % difference in NICS run for purchases in 2018 and 2020 by state.
 
 STEP 7:
-Finding the average monthly NICS run for purchases in each state (to use as a new baseline).
+Finding the average monthly NICS run for purchases in each state.
 
-STEP 8: 
-Comparing each states 2020 NICS run for purchases with their average.
+STEP 8:
+Finding the average yearly NICS run for purchases in each state (to use as a new baseline).
 
 STEP 9: 
-Finding the months with the highest month-to-month increase in NICS run for purchases
+Comparing each states 2020 NICS run for purchases with their average.
 
 STEP 10: 
+Finding the months with the highest month-to-month increase in NICS run for purchases
+
+STEP 11: 
 Comparing each state's monthly average NICS run for purchases with that of the months identified in the previous step.
