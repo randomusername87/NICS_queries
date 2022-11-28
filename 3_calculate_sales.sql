@@ -1,6 +1,6 @@
 /*SEPARATING OUT BACKGROUND CHECKS RUN FOR PURCHASES
 	(Some checks are run for various permits, and some states run checks annually 
-	to confirm permit eligibility)/*
+	to confirm permit eligibility)*/
 
 SELECT 
 	sub.state,
