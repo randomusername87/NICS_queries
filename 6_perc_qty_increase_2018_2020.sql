@@ -4,7 +4,6 @@
 WITH 
 	cte_2018 AS
 		(
-		/*cte_2018*/
 		SELECT
 			state,
 			SUM(handgun_adj) + SUM(long_gun_adj) + SUM(other_adj) + SUM(multiple_adj) 
@@ -26,7 +25,6 @@ WITH
 		),
 	cte_2020 AS
 		(
-		/*cte_2020*/
 		SELECT
 			state,
 			SUM(handgun_adj) + SUM(long_gun_adj) + SUM(other_adj) + SUM(multiple_adj) 
