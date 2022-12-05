@@ -1,7 +1,7 @@
 /*Avg purchase by state vs 2020 and percentage change */
 
 
-WITH cte_avg AS --cte_avg
+WITH cte_avg AS
 	(
 	SELECT
 		state,
@@ -29,7 +29,7 @@ WITH cte_avg AS --cte_avg
 		) AS sub_2
 	GROUP BY state, avg_purch_yearly
 	),
-cte_2020 AS --cte_2020
+cte_2020 AS
 	(
 	SELECT
 		state,
@@ -47,7 +47,7 @@ cte_2020 AS --cte_2020
 		FROM nics_checks
 		GROUP BY state, month
 		) AS sub
-	WHERE month LIKE '2020%'	--change date here
+	WHERE month LIKE '2020%'
 	GROUP BY state
 	)
 SELECT 
