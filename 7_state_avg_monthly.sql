@@ -27,22 +27,6 @@ FROM
 GROUP BY state, avg_purch_monthly
 ORDER BY avg_purch_monthly DESC
 LIMIT 55;
-	
-	
-	/*
-	testing subqueries to get average
-	
-	SELECT 
-		state,
-		COUNT(month) AS num_months,
-		SUM(handgun) * 1.1 AS handgun_adj,
-		SUM(long_gun) * 1.1 AS long_gun_adj,
-		SUM(other) * 1.1 AS other_adj,
-		SUM(multiple) * 2 AS multiple_adj
-	FROM nics_checks
-	GROUP BY state;
-	
-	*/
-	
+
 	
 	
