@@ -1,4 +1,4 @@
---How many guns did each state buy in 2020?
+--How many guns did each state buy in 2018?
 
 SELECT
 	state,
@@ -16,7 +16,7 @@ FROM
 	FROM nics_checks
 	GROUP BY state, month
 	) AS sub
-WHERE month LIKE '2020%'	--change date here to examine other years
+WHERE month LIKE '2018%'	--change date here to examine other years
 GROUP BY state
 ORDER BY purchase_estimate DESC
 LIMIT 55;
