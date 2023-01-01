@@ -11,10 +11,10 @@ FROM
 	SELECT 
 		state,
 		month,
-		SUM(handgun) * 1.1 AS handgun_adj,
-		SUM(long_gun) * 1.1 AS long_gun_adj,
-		SUM(other) * 1.1 AS other_adj,
-		SUM(multiple) * 2 AS multiple_adj
+		SUM(COALESCE(handgun, 0)) * 1.1 AS handgun_adj,
+		SUM(COALESCE(long_gun, 0)) * 1.1 AS long_gun_adj,
+		SUM(COALESCE(other, 0)) * 1.1 AS other_adj,
+		SUM(COALESCE(multiple, 0)) * 2 AS multiple_adj
 	FROM nics_checks
 	GROUP BY state, month
 	) AS sub
