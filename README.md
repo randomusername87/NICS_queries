@@ -13,26 +13,39 @@ Building out the table and importing the .csv file.
 STEP 3:
 Creating a column, "total_purchase," that only includes background checks run for sales
 
-STEPS 4 & 5: 
-Examining the number NICS run for purchases in 2018 and 2020 by state.
+STEP 4: 
+Examine state totals for each type of firearm  purchase
 
 STEP 5:
-Examining the difference in NICS run for purchases in 2018 and 2020 by state.
+Examine each states estimated purchases for 2018
 
-STEP 6: 
-Examining the % difference in NICS run for purchases in 2018 and 2020 by state.
+STEP 6:
+Examine each states estimated purchases for 2020
 
-STEP 7:
-Finding the average monthly NICS run for purchases in each state.
+STEPS 7 & 8: 
+Compare state totals from 2018 to 2020
 
-STEP 8:
-Finding the average yearly NICS run for purchases in each state (to use as a new baseline).
+STEP 9:
+How many monthly purchases has each state averaged since the NICS background check system was put in place?
 
-STEP 9: 
-Comparing each states 2020 NICS run for purchases with their average.
+STEP 10:
+How many annual purchases has each state averaged since the NICS background check system was put in place?
 
-STEP 10: 
-Finding the months with the highest month-to-month increase in NICS run for purchases
+STEPS 11 & 12:
+How did purchases in 2020 compare to each state's average? Which states were farthest above average?
 
-STEP 11: 
-Comparing each state's monthly average NICS run for purchases with that of the months identified in the previous step.
+STEPS 13 & 14:
+Which years have seen the most gun sales in the US? How far were those years above average?
+
+STEPS 15 & 16:
+Which months have seen the most gun sales in the US? How far were those months above average?
+
+STEP 17:
+Which three-month periods had the most gun sales? (top 5 three-month periods)
+
+STEP 18:
+What month has seen the sharpest month-over-month increase in sales volume? (top 5)
+
+STEP 19: 
+What month has seen the sharpest month-over-month increase in sales percentage? (top 5)
+
